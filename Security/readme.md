@@ -56,7 +56,7 @@ sudo docker stop <container-id>
 ## Introduction to Web Application Attacks
 Referring to [OWASP.org](https://www.owasp.org/) and its [Testing guide v3](https://www.owasp.org/index.php/OWASP_Testing_Guide_v3_Table_of_Contents), we summarize below some of the common Web application attacks aiming at server or user.
 
-The following attacks aim at attacking the web servers
+The following attacks aim at attacking the web servers:
 ### Brute force attack
 A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response. Brute-force attacks are often used for attacking authentication and discovering hidden content/pages within a web application. These attacks are usually sent via GET and POST requests to the server.
 
@@ -83,7 +83,8 @@ SQL Injection attacks can be divided into the following three classes:
 ### Command Injection
 Command injection is an attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application. Command injection attacks are possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell. In this attack, the attacker-supplied operating system commands are usually executed with the privileges of the vulnerable application. Command injection attacks are possible largely due to insufficient input validation. 
 
-The following attacks aim at attacking the web users
+The following attacks aim at attacking the web users:
 ### Cross-Site Scripting (XSS)
 
-###
+
+### Cross Site Request Forgery (CSRF)
