@@ -54,6 +54,14 @@ sudo docker stop <container-id>
 ```
 
 ## Introduction to Web app attacks
+Referring to [OWASP](https://www.owasp.org/), we summarize below some of the common Web application attacks.
+### Brute force attack
+A brute force attack can manifest itself 
 
-- [ ] TODO
+###
 
+
+###
+
+
+###
