@@ -54,9 +54,15 @@ sudo docker stop <container-id>
 ```
 
 ## Introduction to Web app attacks
-Referring to [OWASP](https://www.owasp.org/), we summarize below some of the common Web application attacks.
+Referring to [OWASP.org](https://www.owasp.org/) and its [Testing guide v3](https://www.owasp.org/index.php/OWASP_Testing_Guide_v3_Table_of_Contents), we summarize below some of the common Web application attacks.
+
 ### Brute force attack
-A brute force attack can manifest itself 
+A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response. Brute-force attacks are often used for attacking authentication and discovering hidden content/pages within a web application. These attacks are usually sent via GET and POST requests to the server.
+
+There are different types of brute force attacks depending on the authentication methods of the web application. After having listed the different types of authentication methods for a web application, we will explain several types of brute force attacks below:
+
+- Dictionary Attack
+
 
 ###
 
